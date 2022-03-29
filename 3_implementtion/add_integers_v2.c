@@ -25,4 +25,7 @@ void test_add_integers();
     printf ("add function fails for negative no./n");
     return 0;  
 }
-
+void main(){
+  test_add_integers();
+  return 0;
+}
